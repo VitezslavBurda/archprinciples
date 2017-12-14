@@ -164,7 +164,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## T2 – Avoid lock-in
+## T2 – Avoid vendor lock-in
 > **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
 
 ### Implications
