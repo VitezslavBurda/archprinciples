@@ -8,7 +8,7 @@ Our architectural approach is not to strictly follow principles as rules but rat
 The list below is not an all-encompassing list of best practices, but a set of key principles we want to focus on in 2018
 
 # General
-## G1 – Re-use before Buy before Build
+## G1 – For non-differentiating IT: Re-use before Buy before Build
 > **By** investigation of our existing landscape for matching platforms and capabilities to be re-used, before conducting a market investigation for packaged solutions and configuration, before bespoke solution development, **it is ensured that** the technology diversity of our IT landscape is reduced, **so that** IT cost and complexity are minimised for maximum efficiency.
 
 ### Implications
@@ -23,7 +23,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## G2 – Maximize company benefits
+## G2 – Business value for innogy first
 > **By** considering the benefits of our architecture in the light of the whole company rather than evaluating it from an isolated perspective, **it is ensured that** architectural changes create the highest long-term value for the company and our shareholders, **so that** we do not seek local optima that do not capitalize on the best possible solution for innogy.
 
 ### Implications
@@ -55,7 +55,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 # Applications and Integration
 
-## A1 – Mesh App & Service architecture (MASA)
+## A1 – Mesh App & Service architecture (MASA) for scaling digital business models
 > **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** we have an architecture that supports growth and a rapid pace of change, that we keep strong integration capabilities with partners, ecosystems and other product lines, balancing the demand for agility and scalability of services with composition and reuse of services **so that** our architecture provides a solid foundation for new digital business ecosystems.
 
 ### Implications
@@ -70,7 +70,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## A2 – Leverage on platforms
+## A2 – Leverage platforms
 > **By** designing IT solutions based on platforms (at all levels of the IT landscape), rather than just collaborating on the level of infrastructure, **it is ensured that** we can solve complex problems only once, **so that** we can be more productive and technically aligned without losing the desired level of autonomy of our segments and product teams.
 
 ### Implications
@@ -85,7 +85,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## A3 – Think Cloud-Native \(Cloud-First\)
+## A3 – Think Cloud-First and become Cloud-Native
 > **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed and scale of cloud services, that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust and scalable.
 
 ### Implications
@@ -100,7 +100,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * [The Twelve-Factor App](https://www.12factor.net/)
 
-## A4 – Loosely coupling to mitigate constraints
+## A4 – Loose coupling is the law
 > **By** avoiding design-time intersystem dependencies and by systems only being aware of their relevant contracts (semantic/structural formats, interaction flows and invariants) of services exposed by other systems, **it is ensured that** loose coupling between systems is achieved, **so that** the landscape impact of individual system changes and risks to end-to-end system integrity are significantly reduced.
 
 ### Implications
@@ -132,7 +132,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## D2 – Secure company data
+## D2 – Security by Design
 > **By** applying strict information risk assessments and by embedding security controls into architecture and delivery processes, **it is ensured that** our services and systems are secure by design **so that** security does not become an expensive after-thought, and that customer and employee data and processes are kept secure.
 
 ### Implications
@@ -164,7 +164,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## T2 – Avoid technical lock-in
+## T2 – Avoid lock-in
 > **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
 
 ### Implications
