@@ -9,7 +9,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 # General
 ## G1 – Re-use before Buy before Build
-> **By** investigation of the existing landscape for matching platforms and solutions to be re-used, before market investigation for packaged solutions and configuration rather than customisation of these solutions, before building via bespoke development, **it is ensured that** the technology diversity of the IT landscape is reduced **so that​** IT cost and complexity is minimised.
+> **By** investigation of our existing landscape for matching platforms and capabilities to be re-used, before conducting a market investigation for packaged solutions and configuration, before bespoke solution development, **it is ensured that** the technology diversity of our IT landscape is reduced, **so that** IT cost and complexity are minimised for maximum efficiency.
 
 ### Implications
 * IT solutions are designed with an emphasis on future re-use
@@ -24,7 +24,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## G2 – Maximize company benefits
-> **By** considering benefits of every solution design in the light of whole company rather than evaluating it only from isolated perspective **it is ensured that** architectural changes creates the highest long-term value for the company **so that** no locally beneficial approach might make negative impact on overall business landscape.
+> **By** considering the benefits of our architecture in the light of the whole company rather than evaluating it from an isolated perspective, **it is ensured that** architectural changes create the highest long-term value for the company and our shareholders, **so that** we do not seek local optima that do not capitalize on the best possible solution for innogy.
 
 ### Implications
 * All decisions and solution designs are assessed towards whole company benefits
@@ -39,7 +39,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * [THINK ENTERPRISE FIRST](http://www.biske.com/blog/?p=878)
 
 ## G3 – Commit to common EAM approach
-> **By** building common Enterprise Architecture capability and working as company wide IT architecture community **it is ensured that** the cross-segment relevant transparency is established to support capability and information share and individual IT segments are not isolated in their silos **so that** the synergies are easily identified and architectural re-use is enabled across segments.
+> **By** building a common Enterprise Architecture Management capability and working as a company wide IT architecture community, **it is ensured that** the cross-segment transparency is established to support capability and information sharing, **so that** common information transparency challenges (for example around security, infrastructure, service management) can be centrally served.
 
 ### Implications
 * Ownership of EAM is not with a central team, but the different architects define a common minimum data model and use a central tool to consolidate information
@@ -56,7 +56,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Applications and Integration
 
 ## A1 – Mesh App & Service architecture (MASA)
-> **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** services are encapsulated and exposes APIs at multiple levels and across organizational boundaries, balancing the demand for agility and scalability of services with composition and reuse of services **so that** designed solutions provide a solid foundation for digital business ecosystems.
+> **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** we have an architecture that supports growth and a rapid pace of change, that we keep strong integration capabilities with partners, ecosystems and other product lines, balancing the demand for agility and scalability of services with composition and reuse of services **so that** our architecture provides a solid foundation for new digital business ecosystems.
 
 ### Implications
 * 
@@ -71,7 +71,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## A2 – Leverage on platforms
-> **By** designing IT solutions based upon platforms (at all levels of IT landscape) rather than developing everything from scratch **it is ensured that** the implemented logic is separated from the technical solution **so that** the impact of technical changes to business processes and vice-versa is reduced.
+> **By** designing IT solutions based on platforms (at all levels of the IT landscape), rather than just collaborating on the level of infrastructure, **it is ensured that** we can solve complex problems only once, **so that** we can be more productive and technically aligned without losing the desired level of autonomy of our segments and product teams.
 
 ### Implications
 * Investigation of available platforms has to be an inevitable part of IT solution design - even across particular IT segments
@@ -86,7 +86,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## A3 – Think Cloud-Native \(Cloud-First\)
-> **​By** developing cloud-native applications based on 12-factor methodology **it is ensured that** maximum agilitiy is achieved by continuous deployment and minimized divergence between development and production, **so that** the apps can be scaled up and down without significant changes to tooling, architecture, or development practices.
+> **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed and scale of cloud services, that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust and scalable.
 
 ### Implications
 * Organizational and cultural aspects have to be considered by development teams to follow the self-service and DevOps approach
@@ -101,7 +101,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * [The Twelve-Factor App](https://www.12factor.net/)
 
 ## A4 – Loosely coupling to mitigate constraints
-> **By** designing IT components that could be used without the knowledge of internal implementation and integrating them the way that changes of interfaces do not make impact to the existing integrations **it is ensured that** the IT landscape is robust to changes **so that** the integration costs decrease and the quality and stability of IT environment increase in time.
+> **By** avoiding design-time intersystem dependencies and by systems only being aware of their relevant contracts (semantic/structural formats, interaction flows and invariants) of services exposed by other systems, **it is ensured that** loose coupling between systems is achieved, **so that** the landscape impact of individual system changes and risks to end-to-end system integrity are significantly reduced.
 
 ### Implications
 * All IT components are integrated through some integration layer (e.g. message queues) that reduce the dependency of IT components on each other
@@ -118,7 +118,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Data and Information
 
 ## D1 – Share before replicate
-> **By** preferring managed access to existing master sources of data by functional services rather than replicating unmanaged number of the same data within the landscape **it is ensured that** the overall data quality and value increase **so that** the data governance is simplified and the data are catalogued for future re-use.
+> **By** preferring managed access to existing master sources of data through functional services rather than replicating and duplicating an unmanaged amount of copies of the same data within the landscape, **it is ensured that** overall data quality and value increase **so that** data governance is simplified and risks to process / data integrity and likelihood of data mismatches between systems are reduced.
 
 ### Implications
 * Managing data in unified data sources allows to keep the desired data quality and minimize wrong data usage and interpretation
@@ -133,7 +133,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## D2 – Secure company data
-> **By** approaching data as an company digital asset, applying conscious data access management, relevant encryption and not leaving any data unprotected **it is ensured that** every piece of data is accessible only to authorized people and data protection is inevitable part of every data-related decision **so that** the risks of data misuse, data leaks or thefts are mitigated.
+> **By** applying strict information risk assessments and by embedding security controls into architecture and delivery processes, **it is ensured that** our services and systems are secure by design **so that** security does not become an expensive after-thought, and that customer and employee data and processes are kept secure.
 
 ### Implications
 * Data is classified according to its security requirements and limited work is part of company regulations.
@@ -150,7 +150,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Technology
 
 ## T1 – Promote API-led integration
-> **By** enabling the integration APIs to be reused by many parties and also inside the integration platforms and by organizing APIs to layers (System, Process and Experience) **it is ensured that** the developers evolve the business logic faster and safer way (less bugs due to re-use already tested APIs) **so that** whole IT becomes a big platform to support business digital transformation.
+> **By** connecting data and applications through reusable and purposeful APIs in a layered approach (System, Process, Experience), **it is ensured that** we achieve higher levels of functional re-use and allow our teams to move independently, **so that** our delivery speed and flexibility increases, and our capability to integrate our products and services across internal silos and with the external world is strengthened.
 
 ### Implications
 * 
@@ -165,7 +165,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## T2 – Avoid technical lock-in
-> **By** designing IT solutions the way that the desired function does not depend on specific technology or vendor **it is ensured that** all components of the design or vendors could be replaced without significant effort or re-design of the solution **so that** the most effort can be spent on the business outcomes and not on the technical issues and the dependency on particular technologies is minimal.
+> **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
 
 ### Implications
 * 
@@ -179,17 +179,3 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Further reading
 * TBD
 
-## T3 – Follow open standards
-> **By** preferring of verified open standards within designed solutions before closed or proprietary stuff **it is ensured that** the implementation, documentation, training and maintenance efforts are significantly reduced and designed solutions and integrations are easier understandable to new team members and also to partners **so that** IT development and operations costs are decreased and the productivity is boosted.
-
-### Implications
-* 
-* 
-* 
-
-|Successful application of the principle​|Unsuccessful application of the principle​|
-|---------------------------------------|-----------------------------------------|
-| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
-
-### Further reading
-* TBD
