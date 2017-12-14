@@ -80,7 +80,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectivity of IT delivery is wasted on repetitive building of commodity IT</li></ul>
+| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectivity of IT delivery is wasted on repetitive building of commodity IT</li></ul> |
 
 ### Further reading
 * TBD
