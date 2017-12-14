@@ -41,7 +41,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ## G3 – Commit to common EAM approach
 > **By** building common Enterprise Architecture capability and working as company wide IT architecture community **it is ensured that** the cross-segment relevant transparency is established to support capability and information share and individual IT segments are not isolated in their silos **so that** the synergies are easily identified and architectural re-use is enabled across segments.
 
-### Impacts
+### Implications
 * Ownership of EAM is not with a central team, but the different architects define a common minimum data model and use a central tool to consolidate information
 * The central tool is integrated into our processes – EAM is successful when the information is actively used within our processes (CMDB, Billing, Service Management, …)
 * Segment IT can adopt the central tool (Renewables, Corporate, potentially Retail) or continue to use existing tools (ARIS in case of Grid) if they desire, as long as an automated integration to the central tool is in place
@@ -58,20 +58,14 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ## A1 – Mesh App & Service architecture (MASA)
 > **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** services are encapsulated and exposes APIs at multiple levels and across organizational boundaries, balancing the demand for agility and scalability of services with composition and reuse of services **so that** designed solutions provide a solid foundation for digital business ecosystems.
 
-### Impacts
-* TBD
-* TBD
-* TBD
+### Implications
+* 
+* 
+* 
 
-### Successful application of the principle​
-* TBD
-* TBD
-* TBD
-
-### Unsuccessful application of the principle​
-* TBD
-* TBD
-* TBD
+|Successful application of the principle​|Unsuccessful application of the principle​|
+|---------------------------------------|-----------------------------------------|
+| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
 
 ### Further reading
 * TBD
@@ -133,7 +127,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>The data is managed in defined (and unified) sources and are processed by execution of functionally oriented services</li><li>The data is not replicated between systems (if not required)</li><li>The data sources are known and documented including the data owners</li:</ul> | <ul><li>The data is replicated between applications to achieve loosely coupling and reduce applications interdependence.</li><li>Services are data and not functionally oriented.</li><li>Services are used as data pumps that provide data that is then arbitrarily processed by a consumer of the service.</li></ul> |
+| <ul><li>The data is managed in defined (and unified) sources and are processed by execution of functionally oriented services</li><li>The data is not replicated between systems (if not required)</li><li>The data sources are known and documented including the data owners</li></ul> | <ul><li>The data is replicated between applications to achieve loosely coupling and reduce applications interdependence.</li><li>Services are data and not functionally oriented.</li><li>Services are used as data pumps that provide data that is then arbitrarily processed by a consumer of the service.</li></ul> |
 
 ### Further reading
 * TBD
@@ -141,13 +135,61 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ## D2 – Secure company data
 > **By** approaching data as an company digital asset, applying conscious data access management, relevant encryption and not leaving any data unprotected **it is ensured that** every piece of data is accessible only to authorized people and data protection is inevitable part of every data-related decision **so that** the risks of data misuse, data leaks or thefts are mitigated.
 
+### Implications
+* Data is classified according to its security requirements and limited work is part of company regulations.
+* Data is secured in its repository during processing and protected from unauthorized access.
+* Data in non-production environments is malformed or masked so that it can not be misused.
+
+|Successful application of the principle​|Unsuccessful application of the principle​|
+|---------------------------------------|-----------------------------------------|
+| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+
+### Further reading
+* TBD
+
 # Technology
 
 ## T1 – Promote API-led integration
 > **By** enabling the integration APIs to be reused by many parties and also inside the integration platforms and by organizing APIs to layers (System, Process and Experience) **it is ensured that** the developers evolve the business logic faster and safer way (less bugs due to re-use already tested APIs) **so that** whole IT becomes a big platform to support business digital transformation.
 
+### Implications
+* 
+* 
+* 
+
+|Successful application of the principle​|Unsuccessful application of the principle​|
+|---------------------------------------|-----------------------------------------|
+| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+
+### Further reading
+* TBD
+
 ## T2 – Avoid technical lock-in
 > **By** designing IT solutions the way that the desired function does not depend on specific technology or vendor **it is ensured that** all components of the design or vendors could be replaced without significant effort or re-design of the solution **so that** the most effort can be spent on the business outcomes and not on the technical issues and the dependency on particular technologies is minimal.
 
+### Implications
+* 
+* 
+* 
+
+|Successful application of the principle​|Unsuccessful application of the principle​|
+|---------------------------------------|-----------------------------------------|
+| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+
+### Further reading
+* TBD
+
 ## T3 – Follow open standards
 > **By** preferring of verified open standards within designed solutions before closed or proprietary stuff **it is ensured that** the implementation, documentation, training and maintenance efforts are significantly reduced and designed solutions and integrations are easier understandable to new team members and also to partners **so that** IT development and operations costs are decreased and the productivity is boosted.
+
+### Implications
+* 
+* 
+* 
+
+|Successful application of the principle​|Unsuccessful application of the principle​|
+|---------------------------------------|-----------------------------------------|
+| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+
+### Further reading
+* TBD
