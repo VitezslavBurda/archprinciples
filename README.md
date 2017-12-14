@@ -193,5 +193,3 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Further reading
 * TBD
-
-(setq markdown-css-paths `("/assets/styles.css"))
