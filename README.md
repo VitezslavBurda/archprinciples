@@ -168,13 +168,13 @@ The list below is not an all-encompassing list of best practices, but a set of k
 > **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
 
 ### Implications
-* 
-* 
-* 
+* Applications use the standard platforms interfaces, do not use undocumented and non-standard behavior.
+* If the platform supports an open standard for implementation, it is used preferentially.
+* The possibility of future technology or vendor exchange is considered during the design phase (Exit strategy).
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+| <ul><li>Applications can be easily migrated to another platform and termination of platform support does not generate significant risks and costs.</li><li>Technological and vendor independence is one of the main criteria for designing the solutions</li><li>Suppliers of procured services could be easily switched.</li></ul> | <ul><li>Applications are tied to a particular technology or vendor.</li><li>Termination of technology support, price increase or dependence on suppliers generates significant risks.</li><li>Applications use non-standard platform functions.</li></ul> |
 
 ### Further reading
 * TBD
