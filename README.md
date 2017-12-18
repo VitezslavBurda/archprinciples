@@ -59,16 +59,16 @@ The list below is not an all-encompassing list of best practices, but a set of k
 > **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** we have an architecture that supports growth and a rapid pace of change, that we keep strong integration capabilities with partners, ecosystems and other product lines, balancing the demand for agility and scalability of services with composition and reuse of services **so that** our architecture provides a solid foundation for new digital business ecosystems.
 
 ### Implications
-* 
-* 
-* 
+* The distributed nature of MASA can generate increased operational complexity, but it improves agility and scalability, which are primal requirements for any digital business.
+* The classical three layered architecture is deconstructed from the individual application level to the overall IT landscape - systems are architected as a mesh of independent and loosely coupled back-end services and presentation layers realized by web or mobile based apps
+* Roadmap of digital transformation journey is developed. Application portfolio is assessed and critical applications are identified to be rearchitected to MASA.
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+| <ul><li>Applications by default support a broad range of UIs running on an array of different client devices, including PCs, tablets, smartphones, watches, kiosks, car dashboards, GPS devices and media players</li><li>Concept of layered applications (monolithic, one size fits all, layers tightly bound) is replaced by new concept of apps (non-linear interconnected mesh of independent apps and services) to provide a more optimized user experience</li><li>New applications are not anymore developed as monoliths</li></ul> | <ul><li>Applications are designed in a monolithic, linear model in which an application supports one primary client interface: a browser</li><li>Operational complexity increase without getting the benefit of agility and scalability</li><li>No roadmap of application portfolio transformation exists</li></ul> |
 
 ### Further reading
-* TBD
+* [Retire the Three-Tier Application Architecture to Move Toward Digital Business](https://www.gartner.com/binaries/content/assets/events/keywords/applications/apps20i/retire_the_threetier_applica_308298.pdf)
 
 ## A2 – Leverage platforms
 > **By** designing IT solutions based on platforms (at all levels of the IT landscape), rather than just collaborating on the level of infrastructure, **it is ensured that** we can solve complex problems only once, **so that** we can be more productive and technically aligned without losing the desired level of autonomy of our segments and product teams.
