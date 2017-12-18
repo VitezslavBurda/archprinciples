@@ -21,7 +21,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 | <ul><li>​Processes, data, applications, technologies and other IT components are used in multiple business contexts</li><li>The implementation time of projects is decreasing due to re-using of available components</li><li>Commodity procedures (like customer identity management, etc.) are unified for all solutions</li></ul> | <ul><li>​​The same or similar functionalities are implemented multiple times within the IT landscape</li><li>IT solutions are designed from scratch and are competing with standard available products on the market</li><li>Infrastructure is established for each purpose independently and is not shared</li></ul> 
 
 ### Further reading
-* TBD
+* [IT as Manufacturing](https://atechnologyjobisnoexcuse.com/2012/10/cult-of-the-product/)
 
 ## G2 – Business value for innogy first
 > **By** considering the benefits of our architecture in the light of the whole company rather than evaluating it from an isolated perspective, **it is ensured that** architectural changes create the highest long-term value for the company and our shareholders, **so that** we do not seek local optima that do not capitalize on the best possible solution for innogy.
