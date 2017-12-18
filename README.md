@@ -155,11 +155,11 @@ The list below is not an all-encompassing list of best practices, but a set of k
 ### Implications
 * API first thinking is changing the way of work in design and development phases - API is the first user interface of applications and should be designed independently on its implementation
 * Designing API for the system where is no obvious demand for integration might lead to increase of implementation costs
-* 
+* Integration capablity get more matured inside the company as people master the integration as of internal and also with external information systems
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Implementation time of projects decrease in time due to increasing ratio of re-used services</li><li></li><li>All APIs are assorted into three categories: System, Process, Experience</li></ul> | <ul><li>Re-use of services is not easy due to the absence of purposeful APIs</li><li>APIs designs heavily depend on implementation technology</li><li>The design and documentation of APIs it not self-descriptive and easy to understood by people not involved in its creation.</li></ul> |
+| <ul><li>Implementation time of projects decrease in time due to increasing ratio of re-used services</li><li>Broad availability of significant number of purposefull APIs unlocks the creativity and space for business inovation</li><li>All APIs are assorted into three categories: System, Process, Experience</li></ul> | <ul><li>Re-use of services is not easy due to the absence of purposeful APIs</li><li>APIs designs heavily depend on implementation technology that hinders general re-use</li><li>The design and documentation of APIs it not self-descriptive and easy to understood by people not involved in its creation.</li></ul> |
 
 ### Further reading
 * [What is API-led Connectivity?](https://blogs.mulesoft.com/dev/api-dev/what-is-api-led-connectivity/)
