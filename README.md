@@ -153,16 +153,16 @@ The list below is not an all-encompassing list of best practices, but a set of k
 > **By** connecting data and applications through reusable and purposeful APIs in a layered approach (System, Process, Experience), **it is ensured that** we achieve higher levels of functional re-use and allow our teams to move independently, **so that** our delivery speed and flexibility increases, and our capability to integrate our products and services across internal silos and with the external world is strengthened.
 
 ### Implications
-* 
-* 
+* API first thinking is changing the way of work in design and development phases - API is the first user interface of applications and should be designed independently on its implementation
+* Designing API for the system where is no obvious demand for integration might lead to increase of implementation costs
 * 
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li></li><li></li><li></li></ul> | <ul><li></li><li></li><li></li></ul> |
+| <ul><li>Implementation time of projects decrease in time due to increasing ratio of re-used services</li><li></li><li>All APIs are assorted into three categories: System, Process, Experience</li></ul> | <ul><li>Re-use of services is not easy due to the absence of purposeful APIs</li><li>APIs designs heavily depend on implementation technology</li><li>The design and documentation of APIs it not self-descriptive and easy to understood by people not involved in its creation.</li></ul> |
 
 ### Further reading
-* TBD
+* [What is API-led Connectivity?](https://blogs.mulesoft.com/dev/api-dev/what-is-api-led-connectivity/)
 
 ## T2 – Avoid vendor lock-in
 > **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
