@@ -1,5 +1,5 @@
 # Architecture principles
-Architecture principles are descriptive (not prescriptive) patterns emerging from good design. The intention of having architecture principles is to conclude on common guardrails that allow us to drive faster and feel more safe when making decisions.
+Architecture principles are descriptive (not prescriptive) patterns emerging from good design. The intention of having architecture principles is to have common guardrails that allow us to drive faster and feel safe when making decisions.
 
 Our architectural approach is not to strictly follow principles as rules but rather make them visible by good work of IT architecture community.​​​
 
@@ -18,7 +18,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>​Processes, data, applications, technologies and other IT components are used in multiple business contexts</li><li>The implementation time of projects is decreasing due to re-using of available components</li><li>Commodity procedures (like customer identity management, etc.) are unified for all solutions</li></ul> | <ul><li>​​The same or similar functionalities are implemented multiple times within the IT landscape</li><li>IT solutions are designed from scratch and are competing with standard available products on the market</li><li>Infrastructure is established for each purpose independently and is not shared</li></ul> 
+| <ul><li>​Processes, data, applications, technologies and other IT components are used in multiple business contexts</li><li>The implementation time of projects is decreasing due to re-using of available components</li><li>Commodity procedures (like customer identity management, etc.) are unified for all solutions</li></ul> | <ul><li>​​The same or similar functionalities are implemented multiple times within the IT landscape</li><li>IT solutions are designed from scratch and are competing with standard available products on the market</li><li>Infrastructure is established for each purpose independently and is not shared</li></ul>
 
 ### Further reading
 * [IT as Manufacturing](https://atechnologyjobisnoexcuse.com/2012/10/cult-of-the-product/)
@@ -178,4 +178,3 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Further reading
 * TBD
-
