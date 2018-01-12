@@ -142,7 +142,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Data is not leaked/stolen.</li><li>V procesech, aplikacích i jinde jsou používána pouze relevantní data.</li><li>Zabezpečení dat je řešeno v rámci návrhů zpracování dat.</li></ul> | <ul><li>Data is stolen or undesirable access to sensitive data occurs.</li><li>Data is not classified according to security requirements.</li><li>It is not possible to decide whether the data is confidential or not.</li></ul> |
+| <ul><li>Data is not leaked/stolen.</li><li>Only relevant data is used in processes and applications.</li><li>Data protection is par of the data processing design activities.</li></ul> | <ul><li>Data is stolen or undesirable access to sensitive data occurs.</li><li>Data is not classified according to security requirements.</li><li>It is not possible to decide whether the data is confidential or not.</li></ul> |
 
 ### Further reading
 * TBD
