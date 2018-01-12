@@ -24,7 +24,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * [IT as Manufacturing](https://atechnologyjobisnoexcuse.com/2012/10/cult-of-the-product/)
 
 ## G2 – Business value for innogy first
-> **By** considering the benefits of our architecture in the light of the whole company rather than evaluating it from an isolated perspective, **it is ensured that** architectural changes create the highest long-term value for the company and our shareholders, **so that** we do not seek local optima that do not capitalize on the best possible solution for innogy.
+> **By** focusing our architecture and architectural decisions on business value to innogy as a whole, **it is ensured that** the architecture evolves to maximise the highest long-term value for the company and our shareholders, **so that** we do not seek optimum local solutions but capitalize on the best possible solution for innogy.
 
 ### Implications
 * All decisions and solution designs are assessed towards whole company benefits
@@ -33,13 +33,13 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least does not have negative impact to whole company)</li><li>Implemented solutions create value for whole company therefore they are re-usable within the company regardless the place of origin</li><li>Considerations of whole company benefits are obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions does not create value for the whole company (or even worse make negative impact from the whole company perspective)</li><li>Company wide benefits considerations are not part of architecture decision making procedures</li></ul> |
+| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least do not have negative impact to whole company)</li><li>Implemented solutions create value for whole company therefore they are re-usable within the company regardless the place of origin</li><li>Considerations of whole company benefits are an obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions do not create value for the whole company (or even worse has a negative impact from the whole company perspective)</li><li>Company wide benefit considerations are not part of architecture decision making procedures</li></ul> |
 
 ### Further reading
 * [THINK ENTERPRISE FIRST](http://www.biske.com/blog/?p=878)
 
 ## G3 – Commit to common EAM approach
-> **By** building a common Enterprise Architecture Management capability and working as a company wide IT architecture community, **it is ensured that** the cross-segment transparency is established to support capability and information sharing, **so that** common information transparency challenges (for example around security, infrastructure, service management) can be centrally served.
+> **By** building a common Enterprise Architecture Management capability and working as a company wide IT architecture community, **it is ensured that** cross-segment transparency is established to support capability and information sharing, **so that** common information transparency challenges (for example around security, infrastructure, service management) can be centrally served and the re-use principle is supported.
 
 ### Implications
 * Ownership of EAM is not with a central team, but the different architects define a common minimum data model and use a central tool to consolidate information
@@ -48,7 +48,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Segment architects together with central EA team contributes together to create common EA capability</li><li>Agreed level of transparency about IT assets in segment IT is achieved for cross-segment purposes</li><li>IT processes benefit out of the available information from all segments IT (impact analysis, lifecycle management, etc.)</li></ul> | <ul><li>​​Different levels of transparency about IT assets exist in individual segments</li><li>​​​​Sharing capabilities and information is complicated due to fragmented information silos and lingos</li><li>Synergies are achieved by coincidence​</li></ul> |
+| <ul><li>Segment architects together with central EA team contributes together to create common EA capability</li><li>Agreed level of transparency about IT assets in segment IT is achieved for cross-segment purposes</li><li>IT processes benefit out of the available information from all segments IT (impact analysis, lifecycle management, etc.)</li></ul> | <ul><li>​​Different levels of transparency about IT assets exist in individual segments</li><li>​​​​Sharing capabilities and information is complicated due to fragmented information silos and lingos</li><li>Synergies are achieved by coincidence and re-use is limited​</li></ul> |
 
 ### Further reading
 * TBD
@@ -56,16 +56,16 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Applications and Integration
 
 ## A1 – Mesh App & Service architecture (MASA) for scaling digital business models
-> **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** we have an architecture that supports growth and a rapid pace of change, that we keep strong integration capabilities with partners, ecosystems and other product lines, balancing the demand for agility and scalability of services with composition and reuse of services **so that** our architecture provides a solid foundation for new digital business ecosystems.
+> **By** creating cloud-native, web-scale, modular and adaptive solutions that can be continuously and rapidly modified and refactored **it is ensured that** we have an architecture that supports growth and a rapid pace of change, that we keep strong integration capabilities with partners, ecosystems and other product lines, balancing the demand for agility and scalability of services with composition and reuse of services **so that** our architecture can meet business demands and provides a solid foundation for new digital business ecosystems.
 
 ### Implications
-* The distributed nature of MASA can generate increased operational complexity, but it improves agility and scalability, which are primal requirements for any digital business.
-* The classical three layered architecture is deconstructed from the individual application level to the overall IT landscape - systems are architected as a mesh of independent and loosely coupled back-end services and presentation layers realized by web or mobile based apps
+* The distributed nature of MASA can generate increased operational complexity, but it improves agility and scalability, which are primary requirements for any digital business.
+* The classical three layered architecture is deconstructed from the individual application level to the overall IT landscape - systems are architected as a mesh of independent and loosely coupled back-end services and presentation layers are realized by web or mobile based apps
 * Roadmap of digital transformation journey is developed. Application portfolio is assessed and critical applications are identified to be rearchitected to MASA.
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Applications by default support a broad range of UIs running on an array of different client devices, including PCs, tablets, smartphones, watches, kiosks, car dashboards, GPS devices and media players</li><li>Concept of layered applications (monolithic, one size fits all, layers tightly bound) is replaced by new concept of apps (non-linear interconnected mesh of independent apps and services) to provide a more optimized user experience</li><li>New applications are not anymore developed as monoliths</li></ul> | <ul><li>Applications are designed in a monolithic, linear model in which an application supports one primary client interface: a browser</li><li>Operational complexity increases without getting the benefit of agility and scalability</li><li>No roadmap of application portfolio transformation exists</li></ul> |
+| <ul><li>Applications by default support a broad range of UIs running on an array of different client devices, including PCs, tablets, smartphones, watches, kiosks, car dashboards, GPS devices and media players</li><li>Concept of layered applications (monolithic, one size fits all, layers tightly bound) is replaced by new concept of apps (non-linear interconnected mesh of independent apps and services) to provide a more optimized user experience</li><li>New applications are no longer developed as monoliths</li></ul> | <ul><li>Applications are designed in a monolithic, linear model in which an application supports one primary client interface: a browser</li><li>Operational complexity increases without getting the benefit of agility and scalability</li><li>No roadmap of application portfolio transformation exists</li></ul> |
 
 ### Further reading
 * [Retire the Three-Tier Application Architecture to Move Toward Digital Business](https://www.gartner.com/binaries/content/assets/events/keywords/applications/apps20i/retire_the_threetier_applica_308298.pdf)
@@ -75,27 +75,27 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * Investigation of available platforms has to be an inevitable part of IT solution design - even across particular IT segments
-* As leverage platforms is innogy IT strategy, using platforms expects trust among teams and assumes advocacy of platforms usage beyond IT discussions
-* Platforms built with the intention of re-use has to be properly documented in shared environment so that it is easy to find such platforms while working on design of IT solutions
+* As leveraging platforms is innogy IT strategy, using platforms expects trust among teams and assumes advocacy of platforms usage beyond IT discussions
+* Platforms built with the intention of re-use have to be properly documented in a shared environment so that it is easy to find such platforms while working on design of IT solutions
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectivity of IT delivery is wasted on repetitive building of commodity IT</li></ul> |
+| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectiveness of IT delivery is wasted on repetitive building of commodity IT</li></ul> |
 
 ### Further reading
 * TBD
 
 ## A3 – Think Cloud-First and become Cloud-Native
-> **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed and scale of cloud services, that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust and scalable.
+> **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed, flexibility and scale of cloud services, and that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust and scalable.
 
 ### Implications
 * Organizational and cultural aspects have to be considered by development teams to follow the self-service and DevOps approach
 * In case of external development or buying of development from the market, it has to be ensured that the 12-factor methodology is applied
-* Agile and DevOps might be tricky to be accepted by some parts of the organization but it does not provide any reason to stop advocating this principle​
+* There may be resistance to adopting Agile and DevOps by some parts of the organization but it does not provide any reason to stop advocating this principle​
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Applications offer maximal portability among execution environments</li><li>Software delivery pipelines are automated end-to-end due to increased collaboration between development and IT operations team with a shared responsibility.</li><li>Architecture of the applications is based on microservices (smaller independently deployed applications integrated together to achieve ​robustness)</li></ul> | <ul><li>Cloud computing delivery model does not bring expected benefits as its usage stays on the level of another infrastructure provider</li><li>Applications are heavily depending on underlying infrastructure (the infrastructure is not transparent)</li><li>Company will not be competitive in digital markets due to high time to market caused by low autonomy of application developers and application architecture working against agility</li></ul> |
+| <ul><li>Applications offer maximum portability among execution environments</li><li>Software delivery pipelines are automated end-to-end due to increased collaboration between development and IT operations team with a shared responsibility.</li><li>Architecture of the applications is based on microservices (smaller independently deployed applications integrated together to achieve ​robustness)</li></ul> | <ul><li>Cloud computing delivery model does not bring expected benefits as its usage stays on the level of another infrastructure provider</li><li>Applications are heavily depending on underlying infrastructure (the infrastructure is not transparent)</li><li>Company will not be competitive in digital markets due to high time to market caused by low autonomy of application developers and application architecture working against agility</li></ul> |
 
 ### Further reading
 * [The Twelve-Factor App](https://www.12factor.net/)
@@ -105,7 +105,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * All IT components are integrated through some integration layer (e.g. message queues) that reduce the dependency of IT components on each other
-* Implementation costs of projects and changes might temporarily increase until the benefits of decreased dependencies will outreach
+* Implementation costs of projects and changes might temporarily increase until the benefits of decreased dependencies outreaches them
 * Data transfered by interfaces should be published in open standard formats (e.g. XML, JSON, etc.)​
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
@@ -118,11 +118,11 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Data and Information
 
 ## D1 – Share before replicate
-> **By** preferring managed access to existing master sources of data through functional services rather than replicating and duplicating an unmanaged amount of copies of the same data within the landscape, **it is ensured that** overall data quality and value increase **so that** data governance is simplified and risks to process / data integrity and likelihood of data mismatches between systems are reduced.
+> **By** preferring managed access to existing master sources of data through functional services rather than replicating and duplicating an unmanaged amount of copies of the same data within the landscape, **it is ensured that** overall data quality and value increases **so that** data governance is simplified and risks to process / data integrity and likelihood of data mismatches between systems are reduced.
 
 ### Implications
-* Managing data in unified data sources allows to keep the desired data quality and minimize wrong data usage and interpretation
-* Data are exposed as functionally oriented services so other applications does not consume the data for further processing but performing the functions and present the results further
+* Managing data in unified data sources allows the desired data quality to be maintained and minimizes wrong data usage and interpretation
+* Data is exposed as functionally oriented services so other applications do not consume the data for further processing but performing the functions and present the results further
 * Services and their data are cataloged for easier retrieval and reuse.
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
@@ -133,7 +133,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * TBD
 
 ## D2 – Security by Design
-> **By** applying strict information risk assessments and by embedding security controls into architecture and delivery processes, **it is ensured that** our services and systems are secure by design **so that** security does not become an expensive after-thought, and that customer and employee data and processes are kept secure.
+> **By** applying strict information risk assessments and by embedding security controls into architecture and delivery processes, **it is ensured that** our services and systems are secure by design **so that** security does not become an expensive after-thought, customer and employee data and processes are kept secure and risk is kept to a minimum.
 
 ### Implications
 * Data is classified according to its security requirements and limited work is part of company regulations.
