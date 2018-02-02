@@ -28,12 +28,12 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * All decisions and solution designs are assessed towards benefits for the company as a whole
-* Positive benefit for whole company might have negative impact to its isolated part
-* Implementation of solutions with maximized benefits for the company might be more expensive than implementation locally oriented designs
+* Positive benefit for the whole company might have negative impact to its isolated part
+* Implementation of solutions that maximize benefits for the company as a whole might be more expensive than locally oriented designs  
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least do not have negative impact to whole company)</li><li>Implemented solutions create value for whole company therefore they are re-usable within the company regardless the place of origin</li><li>Considerations of whole company benefits are an obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions do not create value for the whole company (or even worse has a negative impact from the whole company perspective)</li><li>Company wide benefit considerations are not part of architecture decision making procedures</li></ul> |
+| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least do not have negative impact to whole company)</li><li>Implemented solutions create value for the whole company therefore they are re-usable within the company regardless the place of origin</li><li>Consideration of benefit to the whole company is an obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions do not create value for the whole company (or even worse have a negative impact from the whole company perspective)</li><li>Company wide benefit considerations are not part of architecture decision making procedures</li></ul> |
 
 ### Further reading
 * [THINK ENTERPRISE FIRST](http://www.biske.com/blog/?p=878)
@@ -80,18 +80,19 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectiveness of IT delivery is wasted on repetitive building of commodity IT</li></ul> |
+| <ul><li>Technical changes are not the issue while changing the business logic of IT solutions​</li><li>Common capabilites are quickly accessible, ready to use, secure, scalable and tested</li><li>Solutions are developed by assembly of Platform services from one or more platforms, augmented with solution specific capabilities</li></ul> | <ul><li>Every IT solution is like a snowflake - no unified approach to commodity IT exists and many tactical solutions</li><li>Productivity of DevOps teams is limited by having to deal with maintenance of their own tools</li><li>Effectiveness of IT delivery is wasted on repetitive building of commodity IT</li></ul> |
 
 ### Further reading
 * TBD
 
 ## A3 – Think Cloud-First and become Cloud-Native
-> **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed, flexibility and scale of cloud services, and that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust and scalable.
+> **By** leveraging cloud services and developing cloud-native applications based on 12-factor methodology, **it is ensured that** we benefit from the innovation, speed, flexibility and scale of cloud services, and that we have a clear contract between applications and infrastructure, **so that** innogy has better access to technology innovation, that we can run experiments quicker and with less risk, and that our applications are more robust, scalable and flexible.
 
 ### Implications
 * Organizational and cultural aspects have to be considered by development teams to follow the self-service and DevOps approach
 * In case of external development or buying of development from the market, it has to be ensured that the 12-factor methodology is applied
-* There may be resistance to adopting Agile and DevOps by some parts of the organization but it does not provide any reason to stop advocating this principle​
+* There may be resistance to adopting Agile and DevOps by some parts of the organization but it does not provide any reason to stop advocating this principle
+* 3rd Party contracts should include provision for DevOps style of working​
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
