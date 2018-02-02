@@ -27,7 +27,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 > **By** focusing our architecture and architectural decisions on business value to innogy as a whole, **it is ensured that** the architecture evolves to maximise the highest long-term value for the company and our shareholders, **so that** we do not seek optimum local solutions but capitalize on the best possible solution for innogy.
 
 ### Implications
-* All decisions and solution designs are assessed towards whole company benefits
+* All decisions and solution designs are assessed towards benefits for the company as a whole
 * Positive benefit for whole company might have negative impact to its isolated part
 * Implementation of solutions with maximized benefits for the company might be more expensive than implementation locally oriented designs
 
