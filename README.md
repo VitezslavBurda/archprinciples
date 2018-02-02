@@ -106,7 +106,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * All IT components are integrated through some integration layer (e.g. message queues) that reduce the dependency of IT components on each other
-* Implementation costs of projects and changes might temporarily increase until the benefits of decreased dependencies outreaches them
+* Implementation costs of projects and changes might temporarily increase until the benefits of decreased dependencies are realised
 * Data transfered by interfaces should be published in open standard formats (e.g. XML, JSON, etc.)​
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
@@ -119,16 +119,16 @@ The list below is not an all-encompassing list of best practices, but a set of k
 # Data and Information
 
 ## D1 – Share before replicate
-> **By** preferring managed access to existing master sources of data through functional services rather than replicating and duplicating an unmanaged amount of copies of the same data within the landscape, **it is ensured that** overall data quality and value increases **so that** data governance is simplified and risks to process / data integrity and likelihood of data mismatches between systems are reduced.
+> **By** preferring managed access to existing master data sources through functional services rather than replicating and duplicating an unmanaged amount of copies of the same data, **it is ensured that** overall data quality and value increases **so that** data governance is simplified and risks to process / data integrity and likelihood of data mismatches between systems are reduced.
 
 ### Implications
 * Managing data in unified data sources allows the desired data quality to be maintained and minimizes wrong data usage and interpretation
-* Data is exposed as functionally oriented services so other applications do not consume the data for further processing but performing the functions and present the results further
+* Data is exposed as functionally oriented services so other applications do not consume the data for further processing but perform the functions and present the results
 * Services and their data are cataloged for easier retrieval and reuse.
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>The data is managed in defined (and unified) sources and are processed by execution of functionally oriented services</li><li>The data is not replicated between systems (if not required)</li><li>The data sources are known and documented including the data owners</li></ul> | <ul><li>The data is replicated between applications to achieve loosely coupling and reduce applications interdependence.</li><li>Services are data and not functionally oriented.</li><li>Services are used as data pumps that provide data that is then arbitrarily processed by a consumer of the service.</li></ul> |
+| <ul><li>The data is managed in defined (and unified) sources and is processed by execution of functionally oriented services</li><li>The data is not replicated between systems (if not required)</li><li>The data sources are known and documented including the data owners</li></ul> | <ul><li>The data is replicated between applications to achieve loosely coupling and reduce applications interdependence.</li><li>Services are data and not functionally oriented.</li><li>Services are used as data pumps that provide data that is then arbitrarily processed by a consumer of the service.</li></ul> |
 
 ### Further reading
 * TBD
@@ -155,8 +155,8 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * API first thinking is changing the way of work in design and development phases - API is the first user interface of applications and should be designed independently on its implementation
-* Designing API for the system where is no obvious demand for integration might lead to increase of implementation costs
-* Integration capablity get more matured inside the company as people master the integration as of internal and also with external information systems
+* Designing API's for the system where there is no obvious demand for integration might lead to increase of implementation costs
+* Integration capablity matures inside the company as people master the integration as of internal and also with external information systems
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
@@ -166,7 +166,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * [What is API-led Connectivity?](https://blogs.mulesoft.com/dev/api-dev/what-is-api-led-connectivity/)
 
 ## T2 – Avoid vendor lock-in
-> **By** avoiding vendor-locking through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose products.
+> **By** avoiding vendor-lockin through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose and best of breed products.
 
 ### Implications
 * Applications use the standard platforms interfaces, do not use undocumented and non-standard behavior.
