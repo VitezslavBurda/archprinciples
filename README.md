@@ -1,5 +1,5 @@
 # Architecture principles
-Architecture principles are descriptive (not prescriptive) patterns emerging from good design. The intention of having architecture principles is to provide common guardrails that allow us to move faster and feel safe when making decisions.
+Architecture principles are descriptive (not prescriptive) patterns emerging from good design. The intention of having architecture principles is to provide common guardrails that allow us to move faster and feel safer when making decisions.
 
 Our architectural approach is not to strictly follow principles as rules but rather make them visible through the good work of the IT architecture community.​​​
 
@@ -9,7 +9,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 # General
 ## G1 – For non-differentiating IT: Re-use before Buy before Build
-> **By** investigation of our existing landscape for matching platforms and capabilities to be re-used, before conducting a market investigation for packaged solutions and configuration, before bespoke solution development, **it is ensured that** the technology diversity of our IT landscape is reduced, **so that** IT cost and complexity are minimised for maximum efficiency.
+> **By** investigation of our existing landscape for matching platforms and capabilities to be re-used, before conducting market investigation for packaged solutions and configuration, before bespoke solution development, **it is ensured that** the technology diversity of our IT landscape is reduced, **so that** IT cost and complexity are minimised for maximum efficiency.
 
 ### Implications
 * IT solutions are designed with an emphasis on future re-use
@@ -33,7 +33,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
 |---------------------------------------|-----------------------------------------|
-| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least do not have negative impact to whole company)</li><li>Implemented solutions create value for the whole company therefore they are re-usable within the company regardless the place of origin</li><li>Consideration of benefit to the whole company is an obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions do not create value for the whole company (or even worse have a negative impact from the whole company perspective)</li><li>Company wide benefit considerations are not part of architecture decision making procedures</li></ul> |
+| <ul><li>Locally implemented solutions are beneficial for the whole company (or at least do not have negative impact to whole company)</li><li>Implemented solutions create value for the whole company therefore they are re-usable within the company regardless of the place of origin</li><li>Consideration of benefit to the whole company is an obvious part of architecture decision making procedures</li></ul> | <ul><li>Locally implemented solutions do not create value for the whole company (or even worse have a negative impact from the whole company perspective)</li><li>Consideration of whole company benefit is not part of architecture decision making procedures</li></ul> |
 
 ### Further reading
 * [THINK ENTERPRISE FIRST](http://www.biske.com/blog/?p=878)
@@ -155,7 +155,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 
 ### Implications
 * API first thinking is changing the way of work in design and development phases - API is the first user interface of applications and should be designed independently on its implementation
-* Designing API's for the system where there is no obvious demand for integration might lead to increase of implementation costs
+* Designing API's for the systems where there is no obvious demand for integration might lead to increase of implementation costs
 * Integration capablity matures inside the company as people master the integration as of internal and also with external information systems
 
 |Successful application of the principle​|Unsuccessful application of the principle​|
@@ -166,7 +166,7 @@ The list below is not an all-encompassing list of best practices, but a set of k
 * [What is API-led Connectivity?](https://blogs.mulesoft.com/dev/api-dev/what-is-api-led-connectivity/)
 
 ## T2 – Avoid vendor lock-in
-> **By** avoiding vendor-lockin through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose and best of breed products.
+> **By** avoiding vendor lock-in through leveraging standards-based and open-source software where possible, **it is ensured that** we can switch service providers in case of cost or functional benefits without significant switching costs or inconvenience, **so that** our IT landscape remains evolvable and leverages fit-for-purpose and best of breed products.
 
 ### Implications
 * Applications use the standard platforms interfaces, do not use undocumented and non-standard behavior.
